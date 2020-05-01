@@ -277,3 +277,20 @@ footer{
     text-align: center;
     align-items: center;
 }
+
+.resultados > a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 15px 25px;
+    color: white;
+    background: orange;
+    border-radius: 50%;
+
+}
+
+.resultados > a:hover {
+    text-decoration: underline;
+    background: white;
+    color: orange;
+
+}
