@@ -1,0 +1,31 @@
+<div class="imagen-activ"><a
+                                href="https://teams.microsoft.com/l/channel/19%3a7c3cab1401664633b0bd134999534bf0%40thread.tacv2/General?groupId=44ce832d-bdf2-4aaa-8489-cd4b8fd8d0cf&tenantId=e512294f-d02c-4380-927d-e8427efc06df"><img
+                                    src="img/dibujo.jpg"></a></div>
+                        <div class="imagen-activ"><a
+                                href="https://www.youtube.com/watch?v=yc1bCB689bE&pbjreload=10"><img
+                                    src="img/cocteles.jpg"></a></div>
+                        <div class="imagen-activ"><a
+                                href="https://www.youtube.com/watch?v=yc1bCB689bE&pbjreload=10"><img
+                                    src="img/zumba.jpg."></a></div>
+
+
+
+.contenedor .video{
+    text-align: center;
+    display: inline-flex;
+    align-items: center;
+    margin-bottom: auto;
+    position: relative;
+
+
+
+
+<div class="content-foo">
+                    <h4>Contactanos</h4>
+                    <p>3143394021</p>
+
+
+<div class="content-foo">
+                    <h4>Visitanos</h4>
+                    <p>Kr 112a # 19 - 05</p>
+                </div>

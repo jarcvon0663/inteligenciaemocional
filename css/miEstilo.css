@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'open sans';
+}
+
+.contenedor{
+    padding: 60px 0;
+    width: 90%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.title{
+    color: #642a73;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+/*header*/
+
+header{
+    width: 100%;
+    height: 600px;
+    background: #f12711;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f5af197a, #f1271180), url(../img/portada2.jpg);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f5af197a, #f1271180), url(../img/portada2.jpg); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background-size: cover;
+background-attachment: fixed;
+position: relative;
+
+}
+
+nav{
+    text-align: right;
+    padding: 30px 50px 0 0;
+}
+
+nav > a{
+    color: #fff;
+    font-weight: 300;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+nav > a:hover{
+    text-decoration: underline;
+}
+
+header .textos-header{
+    display: flex;
+    height: 430px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.textos-header h1{
+    font-size: 50px;
+    color: #fff;
+
+}
+
+.textos-header h2{
+    font-size: 30px;
+    font-weight: 300;
+    color: #fff;
+
+}
+
+.wave{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+/*Comportamiento Organizacional*/
+
+.contenedor-sobre-nosotros{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen1{
+    width: 48%;
+
+}
+
+.sobre-nosotros .contenido-textos{
+    width: 48%;
+
+}
+
+.contenido-textos h3{
+    margin-bottom: 15px;
+
+}
+
+.contenido-textos h3 span{
+    background: #ecca04;
+    color: #fff;
+    border-radius: 50%;
+    display: inline-block;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    padding: 4px;
+    box-shadow: 0 0 6px 0 rgba(0, 0, 0, .5);
+    margin-right: 5px;
+
+}
+
+.contenido-textos p{
+    padding: 0px 0px 30px 15px;
+    font-weight: 300;
+    text-align: justify;
+}
+
+.imagen2{
+    display: block;
+    margin: auto;
+}
+
+
+/*instagram*/
+
+.social{
+    position: fixed;
+    right: 0;
+    top: 35%;
+    font-size: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    z-index: 100;
+}
+
+
+
+/* Actividades*/
+
+.Actividades{
+    background: #f2f2f2;
+
+}
+
+.Actividades p{
+    text-align: justify;
+}
+
+.contenedor .galeria-videos{
+    align-items: center;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.inst > h3{
+    text-align: center;
+    color: orange;
+    font-size: 30px;
+}
+
+.imagen-ins{
+    text-align: center;
+    cursor: pointer;
+}
+
+.contenedor-principal{
+    display: flex;
+    align-items: center;
+    position: relative;
+}
+
+.contenedor .galeria-videos > h5{
+    text-align: center;
+    font-size: 30px;
+}
+
+
+
+/* Actualidad*/
+
+.contenedor > p{
+    text-align: justify;
+}
+
+
+
+
+
+/* Nuestro Equipo*/
+
+.equipo{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.imagen-equipo{
+    width: 24%;
+    height: 100%;
+    margin-bottom: 10px;
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+
+}
+
+.imagen-equipo > img{
+    width: 100%;
+    height: 33%;
+    display: block;
+
+}
+
+/*botón de ir arriba*/
+
+#button-up{
+    width: 60px;
+    height: 60px;
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    border-radius: 50%;
+    font-size: 20px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    cursor: pointer;
+    border: 4px solid transparent;
+    transition: all 300ms ease;
+}
+
+#button-up:hover{
+    transform: scale(1.1);
+    border-color: rgba(0, 0, 0, 0.1);
+}
+
+
+
+/*footer*/
+
+footer{
+    background-color: rgb(216, 156, 43);
+    line-height: 3;
+    text-align: center;
+    width: 100%;
+
+}
+
+.contenedor-footer{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.test{
+    text-align: center;
+    align-items: center;
+}
+
+.resultados{
+    text-align: center;
+    align-items: center;
+}
